@@ -2,6 +2,6 @@
 ```cd /etc/cron.d```
 ```cat cronjob_bandit23```
 ```/usr/bin/cronjob_bandit23.sh```
-```cat /tmp/8169b67bd894ddbb4412f91573b38db3```
+```cat /tmp/$(echo "I am user bandit23" | md5sum | cut -d' ' -f1)```
 ## Key
-__WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff__
+__QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G__
